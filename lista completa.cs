@@ -82,6 +82,7 @@ class Program
                 Console.WriteLine("Digite um numero: ");
                 float number = float.Parse(Console.ReadLine());
                 float result = Math.Abs(number);
+                Console.WriteLine(result);
                 break;
 
             case 9:
